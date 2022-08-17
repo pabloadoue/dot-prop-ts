@@ -1,6 +1,6 @@
 {
   "name": "dot-prop-ts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get, set, or delete a property from a nested object using a dot path refactored for typescript",
   "main": "lib/index.js",
   "repository": "git@github.com:pabloadoue/dot-prop-ts.git",
@@ -15,18 +15,18 @@
     "release": "release-it"
   },
   "keywords": [
-		"object",
-		"prop",
-		"property",
-		"dot",
-		"path",
-		"get",
-		"set",
-		"delete",
-		"access",
-		"notation",
-		"dotty"
-	],
+    "object",
+    "prop",
+    "property",
+    "dot",
+    "path",
+    "get",
+    "set",
+    "delete",
+    "access",
+    "notation",
+    "dotty"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
