@@ -1,4 +1,4 @@
-# ts-dot-prop
+# dot-prop-ts
 
 > Get, set, or delete a property from a nested object using a dot path
 
@@ -7,18 +7,18 @@ This package is heavily inspired on the [dot-prop](https://github.com/sindresorh
 ## Install
 Using NPM
 ```sh
-npm install ts-dot-prop
+npm install dot-prop-ts
 ```
 
 Using yarn
 ```sh
-yarn add ts-dot-prop
+yarn add dot-prop-ts
 ```
 
 ## getProperty
 
 ```js
-import {getProperty} from 'ts-dot-prop';
+import {getProperty} from 'dot-prop-ts';
 
 // Getter
 getProperty({foo: {bar: 'unicorn'}}, 'foo.bar');
@@ -41,7 +41,7 @@ getProperty({foo: [{bar: 'unicorn'}]}, 'foo.0.bar');
 ## setProperty
 
 ```js
-import {setProperty} from 'ts-dot-prop';
+import {setProperty} from 'dot-prop-ts';
 
 const object = {foo: {bar: 'a'}};
 setProperty(object, 'foo.bar', 'b');
@@ -61,7 +61,7 @@ setProperty(object, 'foo.biz[0]', 'a');
 ## hasProperty
 
 ```js
-import {hasProperty} from 'ts-dot-prop';
+import {hasProperty} from 'dot-prop-ts';
 
 const object = {foo: {bar: 'a'}};
 hasProperty(object, 'foo.bar');
@@ -75,7 +75,7 @@ hasProperty(object, 'foo.goo');
 ## deleteProperty
 
 ```js
-import {deleteProperty} from 'ts-dot-prop';
+import {deleteProperty} from 'dot-prop-ts';
 
 const object = {foo: {bar: 'a'}};
 deleteProperty(object, 'foo.bar');
