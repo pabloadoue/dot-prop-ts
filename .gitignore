@@ -1,0 +1,7 @@
+*.swp
+*.swo
+*~
+*.log
+*.env
+.DS_Store
+node_modules
